@@ -1,0 +1,47 @@
+# Project exclude paths
+/springcloud_api/target/
+/springcloud_consumer_dept_80/target/
+/springcloud_eureka_7001/target/
+/springcloud_eureka_7002/target/
+/springcloud_eureka_7003/target/
+/springcloud_provider_dept_8001/target/
+
+#热部署Rebel文件,本地文件
+**/src/main/resources/rebel.xml
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+#!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.mvn
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+mvnw
+mvnw.cmd
+.mvn/
