@@ -15,7 +15,9 @@ import java.util.List;
 @RequestMapping("/consumer/dept")
 public class DeptConsumerController {
 
-    public static final String REST_URL_PRE = "http://127.0.0.1:8001";
+    //    public static final String REST_URL_PRE = "http://127.0.0.1:8001";
+
+    public static final String REST_URL_PRE = "http://SPRINGCLOUD-PROVIDER-DEPT"; //通过服务名启动
 
     @Resource
     private RestTemplate restTemplate;

@@ -1,3 +1,4 @@
+/*
 package com.zq.mybatisplus;
 
 
@@ -74,3 +75,4 @@ public class CodeGenerator {
         mpg.execute(); //执行
     }
 }
+*/

@@ -1,8 +1,9 @@
 package com.zq.entity;
 
+import java.io.Serializable;
+
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -28,6 +29,5 @@ public class Dept implements Serializable {
     private Integer age;
 
     private String dbSource;
-
 
 }

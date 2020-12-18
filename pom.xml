@@ -10,6 +10,8 @@
     <modules>
         <module>springcloud_api</module>
         <module>springcloud_provider_dept_8001</module>
+        <module>springcloud_provider_dept_8002</module>
+        <module>springcloud_provider_dept_8003</module>
         <module>springcloud_consumer_dept_80</module>
         <module>springcloud_eureka_7001</module>
         <module>springcloud_eureka_7002</module>
@@ -93,6 +95,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-eureka</artifactId>
+                <version>${eureka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-ribbon</artifactId>
                 <version>${eureka.version}</version>
             </dependency>
         </dependencies>
